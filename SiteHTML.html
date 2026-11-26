@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBrand - Aprenda HTML5</title>
+  <link rel="stylesheet" href="SiteHTML.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <a href="index.html" class="logo">DevBrand</a>
+    <nav>
+      <ul>
+        <li><a href="#início">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#" class="active">Cards</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn-entrar">Entrar</a>
+  </header>
+
+  <main class="container">
+    
+    <!-- Banner Principal de HTML -->
+    <section class="hero-html" id="início">
+      <div class="hero-text">
+        <h1>Dominando o <span>HTML5</span></h1>
+        <p>A base estrutural de toda a web. Aprenda como organizar textos, imagens, links e formulários para construir páginas modernas.</p>
+      </div>
+      <a href="AtividadeSiteIndex.html" class="btn-neon-orange">← Voltar ao Início</a>
+    </section>
+
+    <!-- Seção Explicativa + Bloco de Código -->
+    <section class="split-section">
+      <div class="info-box">
+        <h2>O que é HTML?</h2>
+        <p>HTML (HyperText Markup Language) não é uma linguagem de programação, mas sim uma <strong>linguagem de marcação</strong>.</p>
+        <p>Ela funciona como o esqueleto de um site, usando "tags" para dizer ao navegador o que é um título, um parágrafo, um botão ou uma imagem.</p>
+      </div>
+
+      <div class="code-window">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span>estrutura-basica.html</span>
+        </div>
+        <pre><code><span class="tag">&lt;!DOCTYPE html&gt;</span>
+<span class="tag">&lt;html</span> <span class="attr">lang</span>=<span class="val">"pt-BR"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;head&gt;</span>
+  <span class="tag">&lt;title&gt;</span>Minha Página<span class="tag">&lt;/title&gt;</span>
+<span class="tag">&lt;/head&gt;</span>
+<span class="tag">&lt;body&gt;</span>
+  <span class="tag">&lt;h1&gt;</span>Olá, Mundo!<span class="tag">&lt;/h1&gt;</span>
+  <span class="tag">&lt;p&gt;</span>Meu primeiro site em HTML.<span class="tag">&lt;/p&gt;</span>
+<span class="tag">&lt;/body&gt;</span>
+<span class="tag">&lt;/html&gt;</span></code></pre>
+      </div>
+    </section>
+
+    <!-- Grade de Tags Essenciais -->
+    <h2 class="section-title">Principais Tags para Começar</h2>
+    <section class="tags-grid">
+      <div class="tag-card">
+        <span class="tag-badge">&lt;h1&gt; a &lt;h6&gt;</span>
+        <h3>Títulos e Subtítulos</h3>
+        <p>Definem a hierarquia dos títulos da página, sendo o h1 o mais importante e o h6 o menor.</p>
+      </div>
+
+      <div class="tag-card">
+        <span class="tag-badge">&lt;p&gt;</span>
+        <h3>Parágrafos</h3>
+        <p>Utilizada para inserir blocos de texto comuns e organizar o conteúdo escrito da página.</p>
+      </div>
+
+      <div class="tag-card">
+        <span class="tag-badge">&lt;a href=""&gt;</span>
+        <h3>Links de Navegação</h3>
+        <p>Cria hiperlinks que conectam uma página à outra ou levam o usuário para sites externos.</p>
+      </div>
+
+      <div class="tag-card">
+        <span class="tag-badge">&lt;img src=""&gt;</span>
+        <h3>Imagens</h3>
+        <p>Permite exibir fotos, ícones e ilustrações na tela a partir de um arquivo local ou URL.</p>
+      </div>
+
+      <div class="tag-card">
+        <span class="tag-badge">&lt;div&gt;</span>
+        <h3>Contêineres</h3>
+        <p>Agrupa elementos em blocos para facilitar a organização e a estilização posterior com CSS.</p>
+      </div>
+
+      <div class="tag-card">
+        <span class="tag-badge">&lt;button&gt;</span>
+        <h3>Botões Interativos</h3>
+        <p>Cria botões clicáveis para enviar formulários ou disparar ações na interface do usuário.</p>
+      </div>
+    </section>
+
+    <!-- Nova Seção: Vídeos Relacionados -->
+    <h2 class="section-title">Aulas e Vídeos Recomendados</h2>
+    <section class="videos-grid">
+      
+      <a href="https://www.youtube.com/watch?v=wx5Be8G8Zbo" target="_blank" class="video-card">
+        <div class="video-thumb">
+          <div class="play-circle">▶</div>
+          <span class="video-badge">Iniciante</span>
+        </div>
+        <div class="video-info">
+          <h3>Curso Completo de HTML5 do Zero</h3>
+          <p>Aprenda toda a estrutura básica, semântica e criação da sua primeira página passo a passo.</p>
+          <span class="watch-link">Assistir no YouTube →</span>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs" target="_blank" class="video-card">
+        <div class="video-thumb">
+          <div class="play-circle">▶</div>
+          <span class="video-badge">Prática</span>
+        </div>
+        <div class="video-info">
+          <h3>Formulários, Inputs e Tabelas</h3>
+          <p>Domine a criação de telas de login, campos de cadastro e organização de dados em tabelas.</p>
+          <span class="watch-link">Assistir no YouTube →</span>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=IHMOu_KEW-0" target="_blank" class="video-card">
+        <div class="video-thumb">
+          <div class="play-circle">▶</div>
+          <span class="video-badge">Avançado</span>
+        </div>
+        <div class="video-info">
+          <h3>HTML Semântico e Boas Práticas</h3>
+          <p>Entenda como usar tags como header, main, section e footer para melhorar o SEO do seu site.</p>
+          <span class="watch-link">Assistir no YouTube →</span>
+        </div>
+      </a>
+
+    </section>
+
+  </main>
+  <footer class="footer-completo" id="sobre">
+    <div class="footer-container">
+      
+      <div class="footer-coluna">
+        <h3>DevBrand</h3>
+        <p>Soluções digitais e tecnologia para o seu negócio.</p>
+        <p>CNPJ: 00.000.000/0001-00</p>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Links Úteis</h3>
+        <ul>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Política de Cookies</a></li>
+          <li><a href="#">Trabalhe Conosco</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Contato</h3>
+        <p>Email: contato@Devbrand.com.br</p>
+        <p>Telefone: (17) 99268-6331</p>
+        <p>Endereço: Rua Guariba, 800 - catanduva, SP</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 DevBrand. Todos os direitos reservados.</p>
+      <p class="creditos">Desenvolvido por M.Rodrigues, M.Amaro</p>
+    </div>
+  </footer>
+</body>
+</html>

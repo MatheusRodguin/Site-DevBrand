@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBrand - Dominando o Python</title>
+  <link href="https://googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Link para o arquivo CSS externo -->
+  <link rel="stylesheet" href="SitePhyton.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header>
+    <a href="index.html" class="logo">DevBrand</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#" class="active">Cards</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn-login">Entrar</a>
+  </header>
+
+  <main class="container">
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="hero-banner">
+      <div class="hero-content">
+        <h1>Dominando o <span>CSS</span></h1>
+        <p> Uma das linguagens de estilo mais essenciais e versáteis da web. Aprenda a criar layouts responsivos, animações, paletas de cores e interfaces modernas com total controle visual.</p>
+      </div>
+      <a href="AtividadeSiteIndex.html" class="btn-back">← Voltar ao Início</a>
+    </section>
+
+    <!-- INTRODUÇÃO + JANELA DE CÓDIGO -->
+    <section class="intro-section">
+      <div class="intro-text">
+        <h2>O que é CSS</h2>
+        <p><strong>CSS</strong> é uma linguagem de folhas de estilo usada para definir a apresentação e o visual de páginas web, criada com foco na separação entre conteúdo e design.
+            Sua sintaxe declarativa permite estilizar layouts complexos com poucas regras, sendo a escolha padrão para responsividade, animações, tipografia e interfaces modernas.</p>
+        <p>Sua sintaxe limpa permite escrever programas complexos com poucas linhas, sendo a escolha favorita para <strong>Inteligência Artificial, Ciência de Dados, Automação e Web</strong>.</p>
+      </div>
+
+      <div class="code-window">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">primeiro_style.css</span>
+        </div>
+        <div class="code-body">
+<code><span class="cmt"># Exemplo básico em Css</span>
+<span class="kw">.saudacao</span> <span class="fn">{</span><br>
+    color: #2563eb;<br>
+  font-family: Arial, sans-serif;<br>
+  font-size: 20px; <br>
+  <span class="fn">}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARDS DE CONCEITOS -->
+    <h2 class="section-title">Principais Conceitos para Começar</h2>
+    <section class="concepts-grid">
+      <div class="concept-card">
+        <span class="code-badge">color="#fffff"</span>
+        <h3>Estilização</h3>
+        <p> A estilização define cores, fontes, margens e espaçamentos para deixar cada página visualmente atraente.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="code-badge">display: flex</span>
+        <h3>Flexbox</h3>
+        <p>O Flexbox organiza elementos em linha ou coluna, facilitando o alinhamento responsivo na página.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="code-badge">@media (max-width: 900px)</span>
+        <h3>Responsividade</h3>
+        <p> A responsividade adapta o tamanho dos elementos para garantir boa leitura em qualquer tela.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="code-badge">for / while</span>
+        <h3>Laços de Repetição</h3>
+        <p>Automatize tarefas repetitivas percorrendo listas, textos ou executando blocos enquanto uma condição existir.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="code-badge">[1, 2] / {"a": 1}</span>
+        <h3>Listas e Dicionários</h3>
+        <p>Organize grandes volumes de informações em coleções ordenadas ou estruturas baseadas em chave e valor.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="code-badge">def minha_funcao():</span>
+        <h3>Funções</h3>
+        <p>Divida o código em blocos reutilizáveis e organizados para evitar repetições e facilitar a manutenção.</p>
+      </div>
+    </section>
+
+    <!-- VÍDEOS RECOMENDADOS -->
+    <h2 class="section-title">Aulas e Vídeos Recomendados</h2>
+    <section class="videos-grid">
+      <article class="video-card">
+        <div class="video-thumb">
+          <span class="level-tag">Iniciante</span>
+          <div class="play-btn">
+            <div class="play-icon"></div>
+          </div>
+        </div>
+        <div class="video-info">
+          <h3>Curso Completo de Python do Zero</h3>
+          <p>Aprenda instalação, variáveis, operadores, estruturas condicionais e seus primeiros algoritmos na prática.</p>
+          <a href="https://youtube.com" target="_blank" class="watch-link">Assistir no YouTube →</a>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="video-thumb">
+          <span class="level-tag">Prática</span>
+          <div class="play-btn">
+            <div class="play-icon"></div>
+          </div>
+        </div>
+        <div class="video-info">
+          <h3>Automação de Tarefas com Python</h3>
+          <p>Descubra como manipular planilhas, arquivos e automatizar processos repetitivos no computador.</p>
+          <a href="https://youtube.com" target="_blank" class="watch-link">Assistir no YouTube →</a>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <div class="video-thumb">
+          <span class="level-tag">Avançado</span>
+          <div class="play-btn">
+            <div class="play-icon"></div>
+          </div>
+        </div>
+        <div class="video-info">
+          <h3>APIs e Back-end com FastAPI e Flask</h3>
+          <p>Aprenda a conectar o Python com a web criando servidores, rotas e integrações com bancos de dados.</p>
+          <a href="https://youtube.com" target="_blank" class="watch-link">Assistir no YouTube →</a>
+        </div>
+      </article>
+    </section>
+
+  </main>
+  <footer class="footer-completo" id="sobre">
+    <div class="footer-container">
+      
+      <div class="footer-coluna">
+        <h3>DevBrand</h3>
+        <p>Soluções digitais e tecnologia para o seu negócio.</p>
+        <p>CNPJ: 00.000.000/0001-00</p>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Links Úteis</h3>
+        <ul>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Política de Cookies</a></li>
+          <li><a href="#">Trabalhe Conosco</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Contato</h3>
+        <p>Email: contato@Devbrand.com.br</p>
+        <p>Telefone: (17) 99268-6331</p>
+        <p>Endereço: Rua Guariba, 800 - catanduva, SP</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 DevBrand. Todos os direitos reservados.</p>
+      <p class="creditos">Desenvolvido por M.Rodrigues, M.Amaro</p>
+    </div>
+  </footer>
+</body>
+</html>
